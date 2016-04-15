@@ -37,6 +37,17 @@ a {
 
 /*/////////////////////////////////////////////Product Page///////////////////////////////////////////////*/
 
+#products {
+	text-align: center;
+	box-sizing: border-box;
+	/*padding: 0px 75px;*/
+}
+#products h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+}
 #combodiv {
 	width: 90%;
 	/*margin: 0 auto;*/
@@ -46,7 +57,6 @@ a {
 .product {
 	float: left;
 	margin: 30px;
-
 }
 
 .productimg {
@@ -67,11 +77,11 @@ a {
 	display: inline-block ;
 	width: 250px;
 	height: 249px;
-	background-color: beige;
+	background-color: grey;
+	border-radius: 9px;
 	text-align: justify;
 	padding: 20px;
 	box-sizing: border-box;
-
 }
 
 .carddescription h2 {
@@ -104,23 +114,6 @@ input[type="button"] {
 .button {
 	text-align:center;
 }
-
-#products 
-body {
-	text-align: center;
-	box-sizing: border-box;
-	/*padding: 0px 75px;*/
-}
-#products h1 {
-	text-align: center;
-	width: 100%;
-	padding-top: 20px;
-}
-/*
-img {
-	width: auto;
-	height: 249px;
-}*/
 /*/////////////////////////////////////////////About & Contact///////////////////////////////////////////////*/
 
 
