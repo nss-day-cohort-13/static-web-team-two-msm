@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*/////////////////////////////////////////////Product Page///////////////////////////////////////////////*/
 
 #combodiv {
@@ -78,3 +79,41 @@ img {
 	width: auto;
 	height: 249px;
 }*/
+/*/////////////////////////////////////////////About & Contact///////////////////////////////////////////////*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#xWing {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/xwing.png);
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#tieFighter {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/tiefighter.png);
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.boxImage {
+	text-align: center;
+	padding: 10px 200px;
+	color: #E6E1DF;
+}
+
