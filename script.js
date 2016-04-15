@@ -13,7 +13,7 @@ var products = [
 	url: "img/B-Wing-icon.png",
 	},{ name: "Tie Fighter",
 	description: "'…Seinar System's basic TIE fighter—a commodity which, after hydrogen and stupidity, was the most plentiful in the galaxy' ―Corran Horn",
-	price: "15,000",
+	price: "15,000,000",
 	url: "img/Tie-Fighter-01-icon.png",
 	},{ name: "Star Destroyer",
 	description: "'When citizens look at a Star Destroyer and then compare it to the craft which might be mustered to attack it, they have a tendency to dismiss such a notion as suicidal rather than approach the problem tactically.' ―Grand Moff Wilhuff Tarkin",
@@ -21,7 +21,7 @@ var products = [
 	url: "img/Imperial-Star-Destroyer-icon.png",
 	},{ name: "Death Star",
 	description: "'This station is now the ultimate power in the universe. I suggest we use it.' ―Admiral Motti",
-	price: "Call for a quote!",
+	price: "100,000,000,000",
 	url: "img/Death-Star-1st-icon.png",
 	}] ;
 
@@ -52,14 +52,6 @@ for (var i = 0; i < products.length; i++) {
 
 
 // The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
-
-
-
-
-
-
-
-
 
 
 
