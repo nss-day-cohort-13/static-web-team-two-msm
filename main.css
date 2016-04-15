@@ -39,6 +39,13 @@ a {
 	text-decoration: none;
 }
 
+#navStar {
+float: right;
+max-height: 40px;
+max-width: 40px;
+}
+
+
 /*/////////////////////////////////////////////Product Page///////////////////////////////////////////////*/
 
 #combodiv {
