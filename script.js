@@ -14,7 +14,7 @@ var products = [
 	url: "img/B-Wing-icon.png",
 	},{ name: "Tie Fighter",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
-	price: "15,000,000",
+	price: "15,000",
 	url: "img/Tie-Fighter-01-icon.png",
 	},{ name: "Star Destroyer",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
@@ -22,7 +22,7 @@ var products = [
 	url: "img/Imperial-Star-Destroyer-icon.png",
 	},{ name: "Death Star",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
-	price: "100,000,000,000",
+	price: "Call for a quote.",
 	url: "img/Death-Star-1st-icon.png",
 	}] ;
 

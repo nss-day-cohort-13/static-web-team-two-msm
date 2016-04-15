@@ -8,6 +8,10 @@ background-color: #2d2e2f;
 	color: #145383;
 }
 
+footer {
+	color: whitesmoke;
+	text-align: center;
+}
 
 /*/////////////////////////////////////////////TOP NAVIGATION///////////////////////////////////////////////*/
 .topNav {
@@ -71,6 +75,7 @@ a {
 	text-align: justify;
 	padding: 20px;
 	box-sizing: border-box;
+	border-radius: .5em;
 
 }
 
@@ -162,8 +167,8 @@ body {
 #falconblueprint {
 	 background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),
     url(img/falconblueprint.png);
   background-size: cover;
@@ -184,8 +189,35 @@ body {
 	padding: 0px;
 	text-align: center;
 }
+.contact-info li a {
+	background-repeat: no-repeat;
+}
+.contact-info li.phone a {
+	background-image: url('img/phone.png');
 
-.contact h3, h1{
+}
+.contact-info li.mail a {
+	background-image: url('img/mail.png');
+	
+}
+
+.contact-info li.twitter a {
+	background-image: url('img/twitter.png');
+	
+}
+
+
+.contact-info a {
+	display: inline-block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+/* .contact */
+ h3, h1{
 	padding-left: 40px;
 }
 
@@ -202,5 +234,5 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   padding-left: 1em;
-  padding-top: 10rem;
+  padding-top: 12rem;
 }
