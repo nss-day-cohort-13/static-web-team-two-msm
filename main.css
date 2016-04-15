@@ -1,6 +1,7 @@
 /*/////////////////////////////////////////////BODY///////////////////////////////////////////////*/
 body {
 font-family: 'Oswald', sans-serif;
+background-color: #2d2e2f;
 }
 
 .selected {
@@ -13,6 +14,7 @@ font-family: 'Oswald', sans-serif;
 	border: 1px solid #24201e;
 	list-style: none;
 	width: 100%;
+	/* height: 50px; */
 	background-color: #24201e;
 	background:
 	linear-gradient: (
@@ -151,3 +153,19 @@ body {
 	color: #E6E1DF;
 }
 
+
+/*/////////////////////////////////////////////HOME PAGE///////////////////////////////////////////////*/
+#falcon {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(img/falcon.png);
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 10rem;
+}
