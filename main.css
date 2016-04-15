@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*/////////////////////////////////////////////Product Page///////////////////////////////////////////////*/
 
 #combodiv {
@@ -19,6 +18,12 @@
 	display: inline-block;
 	overflow: hidden;
 	float: left;
+}
+
+.productimg img {
+	display: block;
+    margin: 0 auto;
+
 }
 
 .carddescription {
