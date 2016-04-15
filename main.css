@@ -57,6 +57,12 @@ a {
 	float: left;
 }
 
+.productimg img {
+	display: block;
+    margin: 0 auto;
+
+}
+
 .carddescription {
 	display: inline-block ;
 	width: 250px;
