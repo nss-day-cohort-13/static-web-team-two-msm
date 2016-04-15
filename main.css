@@ -152,6 +152,35 @@ body {
 	color: #E6E1DF;
 }
 
+#falconblueprint {
+	 background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/falconblueprint.png);
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact {
+	height: 100vh;
+	color: #E6E1DF;
+	/* padding-left: 10px; */
+	text-align: center;
+	font-size: 2rem;
+}
+
+.contact-info li {
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.contact h3, h1{
+	padding-left: 40px;
+}
 
 /*/////////////////////////////////////////////HOME PAGE///////////////////////////////////////////////*/
 #falcon {
