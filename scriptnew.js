@@ -1,36 +1,34 @@
 
 var products = [
-	{ name: "Death Star",
+	{ name: "Slave One",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
 	price: "15,000",
-	url: "img/DeathStar.png",
+	url: "images/",
 	},{ name: "IG-2000",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
 	price: "15,000",
-	url: "img/DeathStar.png",
+	url: "images/",
 	},{ name: "IG-2000",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
 	price: "15,000",
-	url: "img/DeathStar.png",
+	url: "images/",
 	},{ name: "IG-2000",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
 	price: "15,000",
-	url: "img/DeathStar.png",
+	url: "images/",
 	},{ name: "IG-2000",
 	description: "Dragée I love halvah lollipop croissant marzipan. Wafer fruitcake oat cake ice cream marshmallow",
 	price: "15,000",
-	url: "img/DeathStar.png",
+	url: "images/",
 	}] ;
 
-// console.log("products", products );
-
 var productElements = document.getElementById("products");
-console.log("productElements", productElements );
-
 
 // Use Javascript to add products
 
 var productSelection = productElements[0];
+
+console.log("productElements", productElements );
 
 for (var i = 0; i < products.length; i++) {
 	var currentProduct = products[i];
