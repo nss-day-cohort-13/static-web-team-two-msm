@@ -93,8 +93,11 @@ max-width: 40px;
 	text-align: justify;
 	padding: 20px;
 	box-sizing: border-box;
+<<<<<<< HEAD
+=======
 	border-radius: .5em;
 
+>>>>>>> mm-finalAdjustments
 }
 
 .carddescription h2 {
@@ -127,23 +130,6 @@ input[type="button"] {
 .button {
 	text-align:center;
 }
-
-#products 
-body {
-	text-align: center;
-	box-sizing: border-box;
-	/*padding: 0px 75px;*/
-}
-#products h1 {
-	text-align: center;
-	width: 100%;
-	padding-top: 20px;
-}
-/*
-img {
-	width: auto;
-	height: 249px;
-}*/
 /*/////////////////////////////////////////////About & Contact///////////////////////////////////////////////*/
 
 
